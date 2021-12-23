@@ -120,7 +120,7 @@ __Note__: You may need to run the above command with sudo
 
 1. The Docker image comes with an installation of `vim` and `neovim` for editing.
   If you wish to install additional software for editing or other purposes, you may obtain sudo access with the password `mpanon`.
-2. Thereafter, we assume that you are in the main directory of the docker file.
+2. Thereafter, we assume that you are in the mpst_rust_github directory of the docker file.
 
 <!-- For running the docker file on your own machine,
 assuming you downloaded it and you have Docker installed on your machine: -->
@@ -167,7 +167,7 @@ cargo test --benches --all-features --workspace # Test all benchmarks
 The above command may take up to 15 min.
 
 __Note__:
-The commands from steps 3-5 can be run altogether with:
+The commands from steps 1-3 can be run altogether with:
 
 ```bash
 cargo test --all-targets --all-features --workspace # Test everything in the library
